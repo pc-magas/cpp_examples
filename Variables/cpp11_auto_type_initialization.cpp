@@ -13,15 +13,13 @@
 int main(){
 
     int foo = 1;
-    std::string harem="harem";
-
     // auto auto-declared the type of the variable fighter
     auto fighter=foo;
+    decltype(foo) bar=3;  // the same as: int bar; 
+    std::cout << typeid(bar).name() << std::endl;
     std::cout << typeid(fighter).name() << std::endl;
-    
-    //Can't do this onece declared type cannot be changed
-    fighter=harem;
-    std::cout << typeid(fighter).name() << std::endl;
+    //Can't do this once declared type cannot be changed
+    // fighter=harem;
 
     return 1;
 }
