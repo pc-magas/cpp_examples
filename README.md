@@ -13,3 +13,14 @@ Basic Examples Exmaplining the C++ Syntax. Also there are some examples as well 
 # File Sources way of naming
 
 Any file countaining source code and starts with `cpp11` is reffered to C++ 11 spec.
+
+
+# Misc Snippets
+
+Ovveriding operators
+```
+  friend std::ostream &operator<<(logger &logger, const Poin2D &d) {
+    .....
+    return logger;
+  }
+```
