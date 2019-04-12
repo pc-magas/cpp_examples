@@ -1,5 +1,2 @@
-*
-!*.cpp
-!*.h
-!Basic
-!FileIO
+a.out
+.vscode
