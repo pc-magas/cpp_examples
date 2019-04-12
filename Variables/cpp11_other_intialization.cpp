@@ -1,6 +1,8 @@
 /**
- * Build example using g++ on GNU/Linux with:
- * g++ -stc=c++11 ./Variables/other_intialization.cpp
+ * Intialization methods in C++11.
+ * 
+ * Build example using `g++` on GNU/Linux with:
+ * g++ -stc=c++11 ./Variables/cpp11_other_intialization.cpp
  */
 
 #include<iostream>
