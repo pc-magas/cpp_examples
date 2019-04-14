@@ -1,5 +1,5 @@
 #include <iostream>
-#include<cstring>
+#include <cstring>
 using namespace std;
 
 const char RED[8]="\033[0;31m";
