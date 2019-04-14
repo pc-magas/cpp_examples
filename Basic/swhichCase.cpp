@@ -29,6 +29,7 @@ int main()
 {
   int option=get_option();
   print_message_with_color(option);
+  return 0;
 }
 
 void print_start_message(){

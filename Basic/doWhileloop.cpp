@@ -9,4 +9,5 @@ int main()
     i++;
   } while(i<10);
   cin.get();
+  return 0;
 }

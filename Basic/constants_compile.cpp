@@ -11,5 +11,5 @@ int doubleInt(const int num){
 
 int main(){
     std::cout<<doubleInt(2)<<std::endl;
-    return 1;
+    return 0;
 }

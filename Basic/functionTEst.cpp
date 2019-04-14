@@ -12,4 +12,6 @@ int main()
   int i=10;
   cout <<power(i)<<endl;
   cin.get();
+
+  return 0;
 }

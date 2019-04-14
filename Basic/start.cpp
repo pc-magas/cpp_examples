@@ -4,5 +4,5 @@ int main()
 {
   cout<<"HEY, you, I'm alive! Oh,and Hello World!\n";
   cin.get();
-  return 1;
+  return 0;
 }

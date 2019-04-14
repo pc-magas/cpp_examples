@@ -22,7 +22,7 @@ int main() {
   cout<< "Array with random elements"<< endl;
   printArray(x);
 
-  return 1;
+  return 0;
 }
 
 

@@ -21,4 +21,6 @@ int main ( int argc, char *argv[] )
       }
       // the_file is closed implicitly here
   }
+
+  return 0;
 }

@@ -8,5 +8,5 @@ int main()
     cout<< i <<endl;
   }
   cin.get();
-  return 1;
+  return 0;
 }
