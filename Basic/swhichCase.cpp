@@ -1,6 +1,5 @@
 #include <iostream>
 #include <cstring>
-using namespace std;
 
 const char RED[8]="\033[0;31m";
 const char GREEN[8]="\033[0;32m";
@@ -33,17 +32,17 @@ int main()
 }
 
 void print_start_message(){
-  cout<<"Select a color"<<endl;
-  cout<<RED<<OPTION_RED<<") red"<<NO_COLOR<<endl;
-  cout<<GREEN<<OPTION_GREEN<<") green"<<NO_COLOR<<endl;
-  cout<<YELLOW<<OPTION_YELLOW<<") yellow"<<NO_COLOR<<endl;
+  std::cout<<"Select a color"<<std::endl;
+  std::cout<<RED<<OPTION_RED<<") red"<<NO_COLOR<<std::endl;
+  std::cout<<GREEN<<OPTION_GREEN<<") green"<<NO_COLOR<<std::endl;
+  std::cout<<YELLOW<<OPTION_YELLOW<<") yellow"<<NO_COLOR<<std::endl;
 }
 
 int get_option(){
   int option=0;
   do {
     print_start_message();
-    cin>>option;
+    std::cin>>option;
   } while(option==0 || option > OPTION_YELLOW);
   return option;
 }
@@ -67,6 +66,6 @@ void print_message_with_color(int selectedColor) {
       break; //useless but usefull when needed to put antother option
   }
 
-  cout<<color_to_print<<"Hello Colored World"<<NO_COLOR<<endl;
-  cout<<NO_COLOR;
+  std::cout<<color_to_print<<"Hello Colored World"<<NO_COLOR<<std::endl;
+  std::cout<<NO_COLOR;
 }
