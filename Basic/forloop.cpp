@@ -8,4 +8,5 @@ int main()
     cout<< i <<endl;
   }
   cin.get();
+  return 1;
 }

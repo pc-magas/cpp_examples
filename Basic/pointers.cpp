@@ -11,4 +11,6 @@ int main()
   cin.ignore();
   cout<< "Tne number " << *p <<" is stored in " << p << " memory address " <<endl; // Note the use of the * to get the value
   cin.get();
+
+  return 1;
 }
